@@ -1,0 +1,17 @@
+.UserStatsButton-Container {
+    text-align: center;
+    border:none;
+    background: transparent;
+}
+
+.UserStatsButton-Container:hover {
+    cursor: pointer;
+}
+
+.UserStatsButton-StatsCounter {
+    margin-bottom: calc(0.4vmin); /* 4px */
+}
+
+.UserStatsButton-StatsTitle {
+    margin-top: calc(0.4vmin); /* 4px */
+}

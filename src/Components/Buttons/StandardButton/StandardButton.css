@@ -1,0 +1,12 @@
+.StandardButton-Container {
+    border: solid calc(0.3vmin) var(--Black); /* 3px */
+    border-radius: calc(1vmin); /* 10px */
+    width: calc(37.8vmin); /* 360px */
+    height: calc(6.7vmin); /* 64px */ 
+    background-color: var(--Black1);
+    color: var(--White1);
+}
+
+.StandardButton-Container:hover {
+    cursor: pointer;
+}

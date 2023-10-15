@@ -1,0 +1,31 @@
+
+.NavBarButton-Container {
+    margin-bottom: calc(3.35vmin); /* 32px */
+    border: solid calc(0vmin) var(--Black);
+    border-radius: calc(1vmin); /* 10px */
+    width: calc(35vmin); /* 334px */
+    height: calc(6.7vmin); /* 64px */ 
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    align-items: center;
+    color: var(--Black1);
+}
+
+.NavBarButton-Icon {
+    margin-left: calc(2.1vmin); /* 20px */
+    font-size: calc(3.35vmin); /* 32px */
+}
+
+.NavBarButton-Description {
+    margin-left: calc(2.1vmin); /* 20px */
+}
+
+.NavBarButton-Container:hover {
+    background-color: var(--Gray3);
+    cursor: pointer;
+}
+
+.NavBarButton-Container:last-child {
+    margin: 0px;
+}

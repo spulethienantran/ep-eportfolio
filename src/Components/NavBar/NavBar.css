@@ -1,0 +1,117 @@
+
+.NavBar-Container {
+    width: calc(35vmin); /* 334px */
+    border-right: calc(0.3vmin) solid var(--Gray1);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.NavBar-TopContainer {
+    width: calc(35vmin); /* 334px */
+}
+
+.NavBar-UserProfileContainer {
+    display: flex;
+    flex-direction: row;
+    width:calc(35vmin); /* 334px */
+    align-items: center;
+    margin-bottom: calc(3.35vmin); /* 32px */
+}
+
+.NavBar-UserAvatarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.NavBar-UserAvatar {
+    width: calc(6.7vmin); /* 64px */
+    height: calc(6.7vmin); /* 64px */
+}
+
+.NavBar-DefaultUserAvatar {
+    width: calc(6.7vmin); /* 64px */
+    height: calc(6.7vmin); /* 64px */
+    font-size: calc(3.35vmin);
+}
+
+.NavBar-UserInformationContainer {
+    margin-left: calc(2.5vmin); /* 24px */
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.NavBar-UserName {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.NavBar-BottomContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar-SearchBoxContainer {
+    margin-bottom: calc(3.35vmin); /* 32px */
+    position: relative;
+    height:  calc(1.65vmin + 2 * 2.75vmin);
+}
+
+.NavBar-SearchIcon {
+    position: absolute;
+    left: calc(2.5vmin); /* 24px */
+    top: calc(3.35vmin); /* 32px */
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: calc(2.5vmin); /* 24px */
+    color: var(--Gray2);
+}
+
+.NavBar-SearchBox {
+    height: calc(1.65vmin); /* 16px */
+    width: calc(calc(30vmin) - calc(3.75vmin)); /* 312px */
+    padding: calc(2.5vmin);
+    padding-left: calc(2.5vmin + 3.35vmin);
+    border-radius: calc(1vmin); /* 10px */
+    border: solid calc(0.31vmin); /* 3px */
+    border-color: var(--Gray3);
+    margin-bottom: calc(3.35vmin); /* 32px */
+    font-family: "Inter Regular";
+    font-size: calc(1.65vmin); /* 16px */
+    background-color: var(--Gray3);
+}
+
+.NavBar-SearchBoxContainer:focus-within .NavBar-SearchIcon {
+    color: var(--Black1); 
+}
+
+.NavBar-SearchBoxContainer:focus-within .NavBar-SearchBox {
+    background-color: var(--White1); 
+}
+
+.NavBar-LogoContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: calc(3.35vmin); /* 32px */
+    align-items: center;
+}
+
+.NavBar-Logo {
+    width: calc(8.8vmin); /* 84px */
+}
+
+.NavBar-SignOut {
+    font-size: calc(3.35vmin); /* 32px */
+}

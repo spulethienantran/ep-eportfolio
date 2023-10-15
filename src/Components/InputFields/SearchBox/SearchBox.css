@@ -1,0 +1,37 @@
+.SearchBox-SearchBoxContainer {
+    margin-bottom: calc(3.35vmin); /* 32px */
+    position: relative;
+    height:  calc(1.65vmin + 2 * 2.75vmin);
+}
+
+.SearchBox-SearchIcon {
+    position: absolute;
+    left: calc(2.5vmin); /* 24px */
+    top: calc(3.35vmin); /* 32px */
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: calc(2.5vmin); /* 24px */
+    color: var(--Gray2);
+}
+
+.SearchBox-SearchBox {
+    height: calc(1.65vmin); /* 16px */
+    width: calc(calc(30vmin) - calc(3.75vmin)); /* 312px */
+    padding: calc(2.5vmin);
+    padding-left: calc(2.5vmin + 3.35vmin);
+    border-radius: calc(1vmin); /* 10px */
+    border: solid calc(0.31vmin); /* 3px */
+    border-color: var(--Gray3);
+    margin-bottom: calc(3.35vmin); /* 32px */
+    font-family: "Inter Regular";
+    font-size: calc(1.65vmin); /* 16px */
+    background-color: var(--Gray3);
+}
+
+.SearchBox-SearchBoxContainer:focus-within .SearchBox-SearchIcon {
+    color: var(--Black1); 
+}
+
+.SearchBox-SearchBoxContainer:focus-within .SearchBox-SearchBox {
+    background-color: var(--White1); 
+}

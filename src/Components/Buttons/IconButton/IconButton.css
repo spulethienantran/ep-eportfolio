@@ -1,0 +1,8 @@
+.IconButton-Container{
+    border:none;
+    background: transparent;
+}
+
+.IconButton-Container:hover {
+    cursor: pointer;
+}

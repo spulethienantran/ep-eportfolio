@@ -1,0 +1,15 @@
+.StandardTextInputField {
+    height: calc(1.65vmin); /* 16px */
+    width: calc(32.8vmin); /* 312px */
+    padding: calc(2.5vmin);
+    border-radius: calc(1vmin); /* 10px */
+    border: solid calc(0.31vmin); /* 3px */
+    border-color: var(--Gray1);
+    margin-bottom: calc(3.35vmin); /* 32px */
+    font-family: "Inter Regular";
+    font-size: calc(1.65vmin); /* 16px */
+}
+
+.StandardTextInputField:last-child {
+    margin-bottom: 0px;
+}

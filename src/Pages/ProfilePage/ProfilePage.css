@@ -1,0 +1,95 @@
+.ProfilePage-Wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.ProfilePage-ContentContainer {
+    flex: 1;
+    padding: calc(2.5vmin);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ProfilePage-Content {
+    width: calc(53vmin);
+    display:flex;
+    flex-direction: column;
+}
+
+.ProfilePage-ProfileHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfilePage-UserAvatarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: calc(1.65vmin); /* 16px */
+}
+
+.ProfilePage-UserAvatar {
+    width: calc(21vmin); /* 200px */
+    height: calc(21vmin); /* 200px */
+}
+
+.ProfilePage-DefaultUserAvatar {
+    width: calc(21vmin); /* 200px */
+    height: calc(21vmin); /* 200px */
+    font-size: calc(10.5vmin); /* 100px */
+}
+
+.ProfilePage-UserFullNameContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: calc(1.65vmin); /* 16px */
+    width: calc(52.25vmin); /* 500px */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.ProfilePage-UserFullName {
+    margin-left: calc(4.15vmin); /* 40px */
+    text-align: center;
+    max-width: calc(52.25vmin); /* 500px */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ProfilePage-Action {
+    font-size: calc(2.1vmin); 
+    margin-left: calc(1.25vmin); /* 12px */
+}
+
+.ProfilePage-UserInformationContainer {
+    margin-bottom: calc(3.35vmin); /* 32px */
+}
+
+.ProfilePage-UserMajor {
+    text-align: center;
+    margin-bottom: calc(0.4vmin); /* 4px */
+}
+
+.ProfilePage-UserSchool {
+    text-align: center;
+    margin-top: calc(0.4vmin); /* 4px */
+}
+
+.ProfilePage-ProfileSocialStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ProfilePage-ProjectListContainer {
+    flex: 1;
+    margin-top: calc(2.5vmin); /* 24px */
+}
+

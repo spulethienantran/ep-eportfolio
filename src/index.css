@@ -1,0 +1,64 @@
+@import url("./Fonts.css");
+
+/* Global Variables */
+:root {
+  /* Colors */
+  --Black1: #000;
+  --White1: #fff;
+  --Gray1: #D6D6D6;
+  --Gray2: #8D8D8D;
+  --Gray3: #EFEFEF;
+  --Blue1: #003BD3;
+  --Red1: #BB0000;
+}
+
+body {
+  min-height: 100vh;
+  margin:0px;
+  font-family: "Inter Regular";
+  font-size: calc(1.65vmin); /* 16px */
+  overflow: hidden;
+}
+
+.heading-1 {
+  font-family: "Inter Bold";
+  font-size: calc(3.35vmin); /* 32px */
+  margin: 0px;
+}
+
+.heading-2 {
+  font-family: "Inter Bold";
+  font-size: calc(2.5vmin); /* 24px */
+  margin: 0px;
+}
+
+.heading-3 {
+  font-family: "Inter Semi Bold";
+  font-size: calc(2.5vmin); /* 24px */
+  margin: 0px;
+}
+
+.heading-4 {
+  font-family: "Inter Bold";
+  font-size: calc(2.1vmin); /* 20px */
+  margin: 0px;
+}
+
+.paragraph-1 {
+  font-family: "Inter Regular";
+  font-size: calc(2.1vmin); /* 20px */
+  margin: 0px;
+}
+
+.paragraph-2 {
+  font-family: "Inter Regular";
+  font-size: calc(1.65vmin); /* 16px */
+  margin: 0px;
+}
+
+/* Global Stylings */
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+}

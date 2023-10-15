@@ -1,0 +1,36 @@
+.SignInPage-Wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignInPage-FormContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignInPage-Logo {
+    width: calc(12.5vmin); /* 120px */
+}
+
+.SignInPage-InputFieldsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.SignInPage-PromptContainer {
+    margin: calc(1.65vmin) 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignInPage-ErrorMessage {
+    margin-bottom: calc(1.65vmin);
+    color: var(--Red1);
+}

@@ -1,0 +1,11 @@
+.Logo-Container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo-Container img {
+    width:100%;
+    height:100%;
+}

@@ -1,0 +1,9 @@
+.StandardTextButton-Container {
+    border:none;
+    background: transparent;
+    color: var(--Blue1);
+}
+
+.StandardTextButton-Container:hover {
+    cursor: pointer;
+}

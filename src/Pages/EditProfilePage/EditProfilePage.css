@@ -1,0 +1,54 @@
+.EditProfilePage-Wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.EditProfilePage-ContentContainer {
+    flex: 1;
+    padding: calc(2.5vmin);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.EditProfilePage-Content {
+    width: calc(53vmin);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.EditProfilePage-Title {
+    margin-bottom: calc(3.35vmin); 
+}
+
+.EditProfilePage-UserAvatarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: calc(1.65vmin); /* 16px */
+}
+
+.EditProfilePage-UserAvatar {
+    width: calc(21vmin); /* 200px */
+    height: calc(21vmin); /* 200px */
+}
+
+.EditProfilePage-DefaultUserAvatar {
+    width: calc(21vmin); /* 200px */
+    height: calc(21vmin); /* 200px */
+    font-size: calc(10.5vmin); /* 100px */
+}
+
+.EditProfilePage-EditForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: calc(3.35vmin); /* 32px */
+}
+
+.EditProfilePage-ErrorMessage {
+    margin-bottom: calc(1.65vmin);
+    color: var(--Red1);
+}

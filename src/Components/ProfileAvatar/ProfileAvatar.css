@@ -1,0 +1,30 @@
+.ProfileAvatar-Container {
+    border:none;
+    background: transparent;
+}
+
+.ProfileAvatar-Container:hover {
+    cursor: pointer;
+}
+
+.ProfileAvatar-User {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.ProfileAvatar-Default {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Gray3);
+}
+
+.ProfileAvatar-Container:not(:first-child) {
+    margin-left:calc(1vmin);
+}
